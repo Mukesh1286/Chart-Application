@@ -18,7 +18,7 @@ const ChartComponent = () => {
 
   const chartData = xData.map((item, index) => ({
     x: item.Label,
-    y: parseFloat(yData[index].RandomNumber),
+    y: parseFloat(yData[index]?.RandomNumber),
   }));
 
   return (
