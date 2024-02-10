@@ -24,7 +24,7 @@ const ChartComponent = () => {
 
   return (
     <div>
-      <h2>Chart Plot of Random Data</h2>
+      <h2>React Chart Plot of Random Data</h2>
       <ScatterChart width={800} height={400}>
         <CartesianGrid />
         <XAxis type="number" dataKey="x" name="X" unit="" />
