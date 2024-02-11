@@ -24,6 +24,7 @@ const ChartComponent = () => {
 
   return (
     <div>
+      
       <h2>Chart Application</h2>
       <ScatterChart width={800} height={400}>
         <CartesianGrid />
